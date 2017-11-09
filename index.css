@@ -1,0 +1,305 @@
+/* Table */
+div.table1 {
+    float:left;
+    margin:auto;
+    width: 33%;
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid white;
+
+}
+table {
+    border-collapse: collapse;
+}
+
+table tr td {
+    border: 1px solid white;
+}
+
+div p h1 {
+    font-size: 18px;
+}
+/* ------- */
+
+
+
+
+
+
+/* Background */
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%; 
+}
+.background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+}
+/* -------- */
+
+
+
+
+
+
+/* Header */
+.conteinerHead {
+    background-image: url(Bilder/hd.jpg);
+
+     width: 92%;
+     height: 100%;  
+     border-radius: 20px;
+     margin: 0 auto;
+     padding-left: 30px;
+     padding-bottom: 30px;
+     padding-top: 30px;
+     display: block;
+     clear: both;
+     top: 0px;
+     position: relative;
+     text-align: center;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 1.3em;
+     color:#FFF; 
+}
+/* ------- */
+
+
+
+
+
+
+/* Hovedtekst */
+.conteinerMain {
+    text-align: center;
+    text-decoration: none;
+    background: rgba(64,48,35, 0.7);
+    display: block;
+    top: 20px;
+    height: auto;   
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 385px;
+    color: #FFF;
+    text-decoration: none;
+    list-style-type: none;
+    border-radius: 20px;
+    margin-top:50px;
+}
+
+.conteinerMain2 {
+    float:left;
+    padding:10px 10px;
+    height: 85%;
+    width: 30%;
+    font-size: 13px
+}
+
+.bilde1 {
+    float:right;
+    height: auto;
+    width: 33%;
+    margin:auto;
+}
+
+div#map{
+   float:left;
+}
+
+div.bilde1 p {
+    opacity: 0.7
+}
+
+main ul {
+    list-style-type: none;
+}
+/* ------ */
+
+
+
+
+
+
+/* Navigation */
+nav {
+    background: rgba(64,48,35, 0.7);
+    display: block;
+    top: 20px;
+    position: relative;
+    width: 90%;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 70px;
+    border-radius: 15px;
+    z-index: 1;
+  }
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    background: rgba(253,179,87,0);
+    display: inline-block;
+    position: relative;
+    height: 40px;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+    margin: auto;
+  }
+
+nav ul li:hover {
+    background: rgba(242,212,150,0.7);
+    display: inline-block;
+    position: relative;
+    height: 40px;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    margin:auto;
+    font-size: 2.5em;
+    text-align: center;
+  }
+
+nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+  }
+/* ------- */
+
+
+
+
+
+
+
+
+/* Slideshow */
+
+@keyframes slidy {
+
+0% {
+    left: 0;
+}
+
+50% {
+    left: -200%;
+}
+
+100% {
+    left: 0%;
+}
+}
+
+.slideshow {
+    overflow: hidden;
+    height: 300px;
+    z-index: 1;
+}
+
+.slideshow figure div {
+    width: 20%;
+    float: left;
+}
+
+.slideshow figure img {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.slideshow figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slidy infinite; 
+}
+} 
+
+
+
+
+
+
+/* Eventuelt */
+div ul {
+    width: 400px;
+    height: 100px;
+  }
+
+div ul li a {
+    color: white;
+  }
+
+.kartlink {
+    color: white;
+}
+
+.facelink {
+    color: white;
+}
+
+#containerid {
+    height: 385px;
+}
+
+#containerid2 {
+    height: auto;
+}
+
+.bildekontakt {
+    width: 100px;  
+}
+/* ------ */
+
+
+
+
+
+
+
+/* Footer */
+.footer {
+     background: rgba(64,48,35, 0.7);
+     width: 92%;
+     height: 60px;
+     border-radius: 20px;
+     margin:auto;
+     padding-left: 30px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     margin-top: 50px;
+     display: block;     
+     position: relative;
+     text-align: center;
+     font-family: 'Montserrat', sans-serif;
+     color:#FFF;
+     font-size:12px;
+}
+
+.footer img {
+    height: 17px;
+    width: 17px;
+    font-family: 'Montserrat', sans-serif;
+}
+/* ------ */

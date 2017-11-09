@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Intervention of Grass</title>
+		<meta name="viewport" content="width-device-width, initial-scale=1.0">
+		<link rel="stylesheet" media="(min-width: 601px)" href="index.css">
+		<link rel="stylesheet" media="(max-width: 600px)" href="index-mobil.css">
+	</head>
+	<body>
+		<div class="background">
+			<img src="Bilder/bg.jpg" alt>
+		</div>
+		<div class="conteinerHead">
+			<h1>Gress</h1>
+		</div>
+			<nav>
+				<ul>
+					<li><a href ="index.html">Hjem</a></li>
+					<li><a href ="produkt.html">Produkt</a></li>
+					<li><a href ="historie.html">Historie</a></li>
+					<li><a href ="omoss.html">Om oss</a></li>
+					<li><a href ="kontakt.html">Kontakt</a></li>
+				</ul>
+			</nav>
+			<div class="conteinerMain" id="containerid">
+				<div class="conteinerMain2" id="containerid2">
+				<h2>Kontaktinfo</h2>
+				<p>
+				  Telefon: 478 31 039 <br>
+				  Epost: post@gress.no <br>
+				  Kontor: Venåsvegen 1 S, 3801 Bø i Telemark- <a class="kartlink" href="https://kart.1881.no/boe-i-telemark/3801-boe-i-telemark/venaasvegen-1s" target="_blank">Vis i kart.</a>
+
+				</p>
+				<h2>Facebook</h2>
+				<p>
+				  Vi sender også ut kontinuerlig informasjon, inspirasjon og tips<br> på facebook. Også hvor du kan stille spørsmål. <br>
+				  <a class="facelink" href="https://www.facebook.com/gress.norge/" target="_blank">Følg oss på Facebook</a>
+				</p>
+				<h2>Medlemsservice</h2>
+				<p>
+				  E-post: medlemsservice@gress.no
+				</p>
+			</div>
+			<div id="map" style="width:400px;height:380px;"></div>
+
+			<script>
+				function myMap() {
+				var myCenter = new google.maps.LatLng(59.402701, 9.071968);
+    			var mapCanvas = document.getElementById("map");
+    			var mapOptions = {center: myCenter, zoom:16};
+    			var map = new google.maps.Map(mapCanvas, mapOptions);
+    			var marker = new google.maps.Marker({
+    				position: myCenter,
+    				animation: google.maps.Animation.BOUNCE
+  					});
+  					marker.setMap(map);
+				}
+			</script>
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnJO4PkoUxiBi3ypeFCdPvnAwpbQ0jQTE&callback=myMap"></script>
+			
+			
+			<div class="bilde1">
+					<img class="bildekontakt" src="bilder/kb.jpg" alt="Bøker liggende i Gress">
+					<p>Hentet fra Google.no/bilder</p>
+				</div>
+			</div>
+		<div class="footer">
+			<p>©2017 Gress AS - All Rights Reserved
+			</p>
+			<p>Følg oss: <a href="https://www.facebook.com/gress.norge/" target="_blank"><img src="bilder/FacebookIcon.png" alt="Følg oss på facebook"></a></p>
+		</div>
+	</body>
+</html>
